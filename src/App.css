@@ -1,9 +1,26 @@
+body {
+  background-color: #d5eeff;
+}
+
 .App {
   text-align: center;
 }
 
 .container {
   border: 1px solid black;
+  max-width: 85%;
+  font-family: cursive;
+  background-color: #fff;
+}
+
+.App-logo {
+  height: 180px;
+  position: relative;
+}
+
+h1 {
+  line-height: 64px;
+  font-size: 66px;
 }
 
 footer {
