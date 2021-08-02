@@ -10,6 +10,7 @@ export default function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Dictionary</h1>
         </header>
+        <br />
         <Dictionary />
       </div>
       <footer>
