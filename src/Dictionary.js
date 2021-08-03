@@ -26,6 +26,7 @@ export default function Dictionary() {
         <input type="search" onChange={handleKeywordChange} />
         <input type="submit" value="Search" className="btn btn-secondary" />
       </form>
+      <p className="Hint">Suggested words: sunset, wine, yoga, photography</p>
       <Results results={results} />
     </div>
   );
