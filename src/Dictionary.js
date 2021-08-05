@@ -38,14 +38,14 @@ export default function Dictionary(props) {
           <h1>What are you looking for?</h1>
           <form onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-8">
+              <div className="col-10">
                 <input
                   type="search"
                   onChange={handleKeywordChange}
                   defaultValue={props.defaultKeyword}
                 />
               </div>
-              <div className="col-4">
+              <div className="col-2">
                 <input
                   type="submit"
                   value="Look up"
@@ -55,7 +55,7 @@ export default function Dictionary(props) {
             </div>
           </form>
           <div className="Hint">
-            Suggested words: sunset, wine, yoga, photography
+            Suggested words: sunrise, wine, yoga, photography
           </div>
         </section>
         <Results results={results} />

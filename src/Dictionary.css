@@ -1,15 +1,16 @@
 .Dictionary h1 {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .Dictionary section {
-  background: white;
+  background: #fff;
   padding: 30px;
+  border: 1px solid rgb(167, 166, 166);
   border-radius: 16px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
 }
 
 .Dictionary input {
@@ -20,7 +21,20 @@
   color: #333;
 }
 
+.Dictionary .btn {
+  width: 120%;
+  background-color: #f56132;
+  color: #333;
+  transition: all 200ms ease-in-out;
+  border-color: rgb(167, 166, 166);
+}
+
+.Dictionary .btn:hover {
+  background-color: #fff;
+  color: #f56132;
+}
+
 .Dictionary .Hint {
-  font-size: 11px;
-  margin-top: 5px;
+  font-size: 12px;
+  margin-top: 15px;
 }

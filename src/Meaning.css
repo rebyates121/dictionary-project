@@ -10,3 +10,11 @@
   font-style: italic;
   margin-top: 10px;
 }
+
+.example::first-letter {
+  text-transform: capitalize;
+}
+
+.definition::first-letter {
+  text-transform: capitalize;
+}

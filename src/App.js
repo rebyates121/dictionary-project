@@ -7,8 +7,14 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Dictionary</h1>
+          <div className="row">
+            <div className="col-4">
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+            <div className="col-8">
+              <h1>Dictionary</h1>
+            </div>
+          </div>
         </header>
         <br />
         <Dictionary defaultKeyword="sunset" />
