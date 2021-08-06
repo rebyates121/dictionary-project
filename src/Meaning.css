@@ -4,10 +4,15 @@
   font-weight: bold;
 }
 
+h3::first-letter {
+  text-transform: capitalize;
+}
+
 .Meaning .example {
-  font-size: 14px;
-  opacity: 0.7;
-  font-style: italic;
+  font-family: "Style Script", cursive;
+  font-size: 26px;
+  line-height: 2;
+  opacity: 0.8;
   margin-top: 10px;
 }
 

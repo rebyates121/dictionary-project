@@ -29,3 +29,8 @@ footer {
   opacity: 0.9;
   font-size: 12px;
 }
+
+footer a {
+  text-decoration: none;
+  color: #f56132;
+}

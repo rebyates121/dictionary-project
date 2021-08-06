@@ -27,9 +27,8 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            is open-sourced on Github
+            is open-sourced on Github.
           </a>
-          , and is currently a work in progress.
         </small>
       </footer>
     </div>
