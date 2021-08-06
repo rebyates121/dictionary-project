@@ -19,19 +19,7 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   color: #333;
-}
-
-.Dictionary .btn {
-  width: 120%;
-  background-color: #f56132;
-  color: #333;
-  transition: all 200ms ease-in-out;
-  border-color: rgb(167, 166, 166);
-}
-
-.Dictionary .btn:hover {
-  background-color: #fff;
-  color: #f56132;
+  text-align: center;
 }
 
 .Dictionary .Hint {
